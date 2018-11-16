@@ -4,7 +4,7 @@ const debug = debugModule(module);
 /** 
  * send error.message 
  */
-export default (): ErrorRequestHandler => {
+export default (/* reverved signature for options */): ErrorRequestHandler => {
     /** */
     return (error: Error & { code?: number }, _req, res, next) => {
         debug(error);
