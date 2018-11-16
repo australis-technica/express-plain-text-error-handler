@@ -1,7 +1,7 @@
 {
-  "name": "@australis/express-pteh",
+  "name": "@australis/express-plain-text-error-handler",
   "version": "0.1.0-1",
-  "description": "Send error message to client's request's statusText",
+  "description": "Express plain text error handler, Sends error message to client's request's statusText",
   "private": false,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
