@@ -1,6 +1,6 @@
 {
   "name": "@australis/express-plain-text-error-handler",
-  "version": "0.1.0-1",
+  "version": "0.1.0-2",
   "description": "Express plain text error handler, Sends error message to client's request's statusText",
   "private": false,
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
   "author": "d10221",
   "license": "MIT",
   "dependencies": {
-    "@australis/create-debug": "^1.0.2",
+    "@australis/create-debug": "^1.0.5",
     "express": "^4.16.4"
   },
   "devDependencies": {
